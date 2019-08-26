@@ -1,24 +1,86 @@
 /* here goes the css */
 
-.container{
-
+.reset{
+	margin: 0;
+	padding: 0;
 }
 
-.nav-container{
-
-}
-
-.nav-menu{
-
+.hero{
+	background-image: url("https://archive.fo/UW4oR/c737ac2a39d31e8407c5d08a73daddc5ddcf5d3e.jpg");
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
 }
 
 .apple-logo{
+	width: 20px;
+	height: 20px;
+	margin: 3px auto;
+}
 
+.cover-container{
+	height: 70%;
+	background-color: blue;
+}
+
+.nav-container{
+	display: flex;
+	width: auto;
+	position: relative;
+}
+
+ul{
+	list-style: none;
+	display: inline-flex;
+	background-color: peru;
+	
+}
+
+.nav-menu li{
+	width: 100px;
+	height: 30px;
+	margin: 3px auto;
+	vertical-align: middle;
+}
+
+.nav-menu li a{
+	color: white;
+	text-decoration: none;
+}
+
+
+.nav-menu{
+	margin:  10% 5% 50% 5%;
+	height: 80%;
+	float: left;
+	border-radius: 5px;
+	width: 90%;
+	line-height: 30px;
+}
+
+.showcase-container{
+	display: flex;
+	background-color: blue;	
+}
+
+.showcase-container img{
+	flex-direction: row;
+	width: 25%;
+}
+
+.search-bar{
+	float: right;
 }
 
 #search-bar{
+	padding-left: 30px: 
+}
+
+
+.apple-sprint{
 
 }
+
 
 .gradient-bg{
 
@@ -27,13 +89,7 @@
 .magnify-glasses{
 
 }
-.search-bar{
 
-}
-
-.cover-container{
-
-}
 
 .cover-box{
 
@@ -47,17 +103,8 @@
 
 }
 
-.showcase-container{
 
-}
 
-.box{
-
-}
-
-.legal{
-
-}
 
 .site-map{
 
@@ -67,6 +114,46 @@
 
 }
 
+footer{
+	padding-top: 20px;
+}
 
+.footer-container{
+	background-color: red;
+	opacity: .5;
+	margin: 0px 20px;
+}
 
+.footer-container span {
+	float: left;
+	width: 50%;
+}
+
+.footer-container site-map {
+	float: right;
+	width: 50%;
+}
+
+.description-content{
+	width: 50%;
+	background-color: blue;
+	opacity: .5;
+	display: inline-block;
+
+}
+
+.site-map{
+	padding: 0;
+	background-color: orange;
+	width: 50%;
+	display: inline-block;
+	margin-top: -18px;
+}
+
+.site-map li{
+	display: inline;
+	font-family:'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+	font-size: 10px;
+	color: #0088CC;
+}
 
