@@ -11,8 +11,9 @@
 		color: #333;
 		box-sizing: border-box;
 		background-repeat: no-repeat;
-	
+		
 	}
+
 	/* hero */
 	.container{
 		width: 100%; 
@@ -97,7 +98,7 @@
 
 	/* footer */
 	.footer-container{
-		margin: 20px 20px 0px 20px;
+		margin: 2%;
 		height: 10rem;
 	}
 
