@@ -68,13 +68,16 @@
 		background-position-y: bottom;
 	}
 
-
-	/* showcase */
-	#showcase{
+	#showcase {
 		display: flex;
 	}
 
-	#showcase img{
+	/* showcase */
+	#showcase a{
+		display: contents;
+	}
+
+	#showcase a img{
 		width: 25%;
 		flex-direction: row;
 	}
