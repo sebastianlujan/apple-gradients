@@ -11,12 +11,12 @@
 		color: #333;
 		box-sizing: border-box;
 		background-repeat: no-repeat;
-		
 	}
 
 	/* hero */
-	.container{
+	main{
 		width: 100%; 
+		margin: 0 auto;
 	}
 
 	.inside-container{
@@ -32,12 +32,8 @@
 		padding: 50px 0;
 	}
 
-	#obama{
-	}
-
 	#obama div{
 		background-repeat: no-repeat;
-
 	}
 
 
@@ -46,7 +42,6 @@
 		margin-bottom: 27px;
 		height: 8vh;
 		background-position: 50%;
-
 	}
 
 	.subtitle{
